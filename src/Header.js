@@ -30,7 +30,7 @@ function Header() {
           onMouseOver={handleMouseOver}
           onMouseLeave={handleMouseOut}
         >
-          {isHovering ? <a>Let's get started</a> : <a>Let's Create Plan</a>}
+          {isHovering ? <a>Let's get started</a> : <a>create a plan</a>}
         </a>
       </div>
     </div>

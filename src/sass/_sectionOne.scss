@@ -1,0 +1,39 @@
+.section {
+  margin-top: 10rem;
+
+  &--title {
+    background: -webkit-linear-gradient(rgb(0, 0, 0) 10%, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20rem;
+    text-align: center;
+  }
+}
+
+.coffeeBox-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.coffeebox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &--img {
+    height: 25rem;
+    width: 25rem;
+  }
+
+  &--title {
+    font-size: 3rem;
+    margin: 2rem 0;
+  }
+
+  &--para {
+    font-size: 1.6rem;
+    width: 60%;
+    color: rgba(0, 0, 0, 0.6);
+  }
+}

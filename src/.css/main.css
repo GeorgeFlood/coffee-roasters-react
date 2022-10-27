@@ -13,21 +13,16 @@ html {
   font-size: 62.5%;
 }
 
-/* ////////// NAV BAR STYLES */
-
 .nav {
   display: flex;
   justify-content: space-between;
 }
-
 .nav__bar {
   display: flex;
   list-style: none;
   font-size: 1.5rem;
 }
-
-.nav__bar--link,
-.nav__bar--link:link {
+.nav__bar--link, .nav__bar--link:link {
   display: flex;
   text-transform: uppercase;
   color: grey;
@@ -35,38 +30,32 @@ html {
   text-decoration: none;
 }
 
-/* /////////// HERO HEADER  */
-
 .hero {
   margin-top: 5rem;
   display: flex;
-  background-image: url(../public/image-hero-coffeepress.jpg);
+  background-image: url(/public/image-hero-coffeepress.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
   min-height: 60rem;
   border-radius: 10px;
 }
-
 .hero__info {
   color: #fff;
   margin: auto 5rem;
 }
-
 .hero__title {
   font-size: 7rem;
   font-weight: 700;
 }
-
 .hero__para {
-  color: rgba(255, 255, 255, 1);
+  color: rgb(255, 255, 255);
   font-size: 2rem;
   font-weight: 200;
   line-height: 1.4;
   margin: 5rem 0;
   max-width: 40%;
 }
-
 .hero__btn {
   padding: 1.5rem 2rem;
   font-size: 1.8rem;
@@ -78,9 +67,6 @@ html {
   background-color: #118583;
   transition: background-color ease-in-out 0.3s;
 }
-
 .hero__btn:hover {
   background-color: rgba(48, 169, 161, 0.5);
-}
-
-/* ////////// SECTION ONE  */
+}/*# sourceMappingURL=main.css.map */

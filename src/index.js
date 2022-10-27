@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
+import Navbar from "./Navbar";
 import Header from "./Header";
 import reportWebVitals from "./reportWebVitals";
 import SectionOne from "./sectionOne";
@@ -9,7 +9,7 @@ import SectionOne from "./sectionOne";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Navbar />
     <Header />
     <SectionOne />
   </React.StrictMode>

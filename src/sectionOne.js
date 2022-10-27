@@ -1,4 +1,4 @@
-import "./App.css";
+import "./.css/main.css";
 
 function SectionOne() {
   const section1 = document.querySelectorAll(".section");
